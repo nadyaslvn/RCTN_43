@@ -18,6 +18,6 @@ list.map(array => {
 // print hasil
 console.log(sumList)
 
-function calculate(index) {
-  return list[index].reduce((sum, val) => sum + val, 0)
+function calculate(array) {
+  return array.reduce((sum, val) => sum + val, 0)
 }
