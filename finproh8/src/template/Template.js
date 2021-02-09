@@ -16,7 +16,7 @@ class Template extends React.Component {
 
   componentDidMount() {
     if(this.props.match) {
-      this.props.searchMovie(this.props.match.params.id)
+      this.props.searchMovie(this.props.match.params.searchTitle)
     } else {
       this.props.fetchData()
     }

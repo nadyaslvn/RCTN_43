@@ -114,7 +114,7 @@ function App() {
         </AppBar>
         <BrowserRouter>
           <Switch>
-            <Route path="/:id" component={(props) => <Template {...props} />} />
+            <Route path="/:searchTitle" component={(props) => <Template {...props} />} />
             <Template />
           </Switch>
         </BrowserRouter>
